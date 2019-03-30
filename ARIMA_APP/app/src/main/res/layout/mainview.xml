@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#EE7942"
+        android:text="PM2.5预测系统"
+        />
+
+    <Button
+        android:id="@+id/main_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预测明日PM"
+        />
+    <Button
+        android:id="@+id/main_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预测后天PM"
+        />
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:hint="请输入天数"
+         />
+    <Button
+        android:id="@+id/main_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#EE7942"
+        android:gravity="left"
+        />
+
+
+</LinearLayout>
